@@ -102,12 +102,12 @@ input {
     #title
     {
         margin-top: 40px;
-        font-size: 60px;
+        font-size: 35px;
     }
 
     #txt
     {
-        font-size: 60px;
+        font-size: 35px;
         margin: 20px;
     }
     .calci
@@ -119,8 +119,8 @@ input {
         border-radius: 0;
     }
     .operation_button .btn {
-        font-size: 20px;
-        padding: 22px;
+        font-size: 18px;
+        padding: 20px;
         margin: 10px;
     }
 }
