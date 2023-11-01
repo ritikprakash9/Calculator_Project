@@ -7,6 +7,8 @@ let expression = "";
 
 
 function calculate(button) {
+
+    console.log(button.textContent);
     try {
         if (button.textContent === 'C') {
             expression = "";
@@ -34,6 +36,9 @@ function calculate(button) {
             expression = newExpression;
             text.value = expression;
         }
+
+
+        
         else {
             expression = expression + button.textContent;
             text.value = expression;

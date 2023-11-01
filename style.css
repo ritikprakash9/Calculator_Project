@@ -76,27 +76,6 @@ input {
     box-shadow: 1px 1px 1px 1px var(--secondary);
 }
 
-/* @media only screen and (max-width: 600px) {
-
-    #title
-    {
-        margin-top: 40px;
-    }
-    .calci
-    {
-        width: 80%;
-        height: 80%;
-        justify-content: flex-end;
-        align-items: center;
-        padding-bottom: 20%;
-    }
-    .operation_button .btn {
-        font-size: 20px;
-        padding: 25px;
-        margin: 10px;
-    }
-} */
-
 @media only screen and (max-width: 600px) {
 
     #title
