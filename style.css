@@ -76,15 +76,48 @@ input {
     box-shadow: 1px 1px 1px 1px var(--secondary);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
+
+    #title
+    {
+        margin-top: 40px;
+    }
     .calci
     {
-        width: 60%;
-        height: 50%;
+        width: 80%;
+        height: 80%;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 20%;
     }
     .operation_button .btn {
-        padding: 10px;
-        margin: 5px;
+        padding: 25px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    #title
+    {
+        font-size: 60px;
+    }
+
+    #txt
+    {
+        margin: 20px;
+    }
+    .calci
+    {
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+    .operation_button .btn {
+        padding: 30px;
+        margin: 10px;
     }
 }
 
