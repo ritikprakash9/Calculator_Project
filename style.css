@@ -76,7 +76,7 @@ input {
     box-shadow: 1px 1px 1px 1px var(--secondary);
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 
     #title
     {
@@ -91,15 +91,17 @@ input {
         padding-bottom: 20%;
     }
     .operation_button .btn {
+        font-size: 20px;
         padding: 25px;
         margin: 10px;
     }
-}
+} */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 
     #title
     {
+        margin-top: 40px;
         font-size: 60px;
     }
 
@@ -116,7 +118,8 @@ input {
         border-radius: 0;
     }
     .operation_button .btn {
-        padding: 30px;
+        font-size: 20px;
+        padding: 22px;
         margin: 10px;
     }
 }
