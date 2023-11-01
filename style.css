@@ -1,41 +1,79 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
 
-#txt
-{
-    font-size: 1.1em;
-    padding: 3px 0px;
+:root {
+
+    --primary-color: #04364A;
+    --primary-one: #176B87;
+    --secondary: #64CCC5;
+    --secondary-one: #DAFFFB;
+}
+
+body {
+    background: var(--secondary-one);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#title {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: var(--secondary-one);
+}
+
+#txt {
+    color: var(--secondary-one);
+    padding: 3px;
+    font-size: 1.5em;
+    width: 15vw;
     border: none;
-    border-bottom: 2px solid black ;
+    border-bottom: 1.5px solid var(--secondary-one);
     text-align: right;
 }
 
-input{
+#txt:disabled {
+    background: none;
+}
+
+input {
     outline: none;
 }
 
-.calci
-{
-    height: 100vh;
-    width: 100vw;
+.calci {
+    /* From https://css.glass */
+    background: var(--primary-color);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px var(--primary-one);
+    height: 80vh;
+    width: 20vw;
     display: flex;
+    flex: 0.2;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.operation_button
-{
+.operation_button {
     margin-top: 10px;
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 3;
 }
 
-.operation_button .btn{
+.operation_button .btn {
     padding: 15px;
     margin: 5px;
+}
+
+.btn {
+    color: var(--primary-one);
+    margin: 10px;
+    background-color: var(--secondary-one);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px var(--secondary);
 }
